@@ -1,0 +1,55 @@
+body{
+    /* background-color: darkblue; */
+    font-family: cursive;
+    background-color: #011F3F;
+}
+
+h2{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 4rem;
+}
+
+.container{
+    display:grid;
+    grid-gap: 20px;
+    justify-content: center;
+    grid-template-columns: 10rem 10rem;
+
+}
+
+.grid-item{
+    width:10rem;
+    height: 10rem;
+    border-radius: 1rem;
+}
+
+.green{
+    background-color: green;
+
+}
+
+.red{
+    background-color: red;
+
+}
+
+.yellow{
+    background-color: yellow;
+
+}
+
+.blue{
+    background-color: blue;
+
+}
+
+.pressed{
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
+
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
